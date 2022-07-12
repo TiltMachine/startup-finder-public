@@ -1,0 +1,12 @@
+@import "../index.css";
+.bordered_info{
+    background: var(--altDominant);
+    color: var(--textMain);
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.bordered_info:hover{
+    color: var(--accent);
+    cursor: pointer
+}

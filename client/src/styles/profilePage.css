@@ -1,0 +1,37 @@
+.profilePageAvatar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.whiteBox{
+    padding-bottom: 20px;
+    background-color: var(--secondary);
+    border-radius: 30px;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    border: 1px solid rgba(0,0,0,.125);
+}
+.whiteBox2{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: var(--secondary);
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,.125);
+    font-weight: 500;
+    color: var(--textMain);
+}
+.salary{
+    font-size: 18px;
+    font-weight: 600;
+}
+.block_answer{
+    color: var(--altText);
+    font-size: 15px;
+    font-weight: 300;
+}
+.skillsProfile{
+    flex-wrap: wrap !important;
+}

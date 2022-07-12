@@ -1,0 +1,74 @@
+@import "../index.css";
+.personCard{
+    /*padding-left: 10px;*/
+    padding-right: 10px;
+    background-color: var(--secondary);
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    /*margin-top: 10px;*/
+    /*font-weight: normal;*/
+
+}
+.block_title{
+    color: var(--altTextDarker);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.prev_vacancy_name{
+    color: var(--textMain);
+    font-size: 1.8ex;
+}
+.accent_color{
+    color: var(--accent);
+    font-size: 15px;
+}
+.location_and_exp{
+    color: var(--altText);
+    font-size: 13px;
+}
+.person_info{
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+.person_info_item{
+    background: var(--altDominant);
+    color: var(--altTextDarker);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 30px;
+}
+.row-with-btns{
+    justify-content: end;
+}
+@media screen and (max-width: 768px) {
+
+    .button-storage{
+        width: 100%;
+    }
+    .row-with-btns{
+        justify-content: normal;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .row-with-btns{
+        justify-content: normal;
+    }
+}
+.link_resumeCV{
+    text-decoration: none;
+    color: var(--altTextDarker);
+}
+.link_resumeCV:hover{
+    text-decoration: none;
+    color: var(--accent);
+}
+.cust{
+    width: 300px;
+    margin-left: 24px;
+}

@@ -1,0 +1,106 @@
+{
+  "NavBar": {
+    "language": "Language",
+    "exit": "Exit",
+    "log_in": "Log in",
+    "jobs": "Jobs",
+    "workers": "Talents",
+    "companies": "Companies",
+    "profile": "Profile",
+    "settings": "Settings",
+    "my_companies": "My companies",
+    "create_company": "Create company",
+    "admin_panel": "Admin panel"
+  },
+  "Errors": {
+    "error": "Error!",
+    "close": "Close",
+    "success": "Success",
+    "msg": "You successfully responded! Wait for the reply"
+  },
+  "AuthPage": {
+    "log_in": "Log in"
+  },
+  "TalentsPage": {
+    "title": "Search for talents"
+  },
+  "JobPage": {
+    "title": "Search for jobs"
+  },
+  "CompanyListPage": {
+    "title": "Search for companies"
+  },
+  "ProfilePage": {
+    "salary": "From",
+    "settings": "Settings",
+    "contact": "Contact",
+    "exp": "Experience",
+    "year1": "year",
+    "year2": "years",
+    "year3": "years",
+    "country": "Country",
+    "city": "City",
+    "skills": "Skills",
+    "rev": "Under review",
+    "status": "Status",
+    "company": "Company",
+    "position": "Position",
+    "hist": "Responses history"
+  },
+  "CompanyPage": {
+    "edit": "Edit",
+    "del": "Delete",
+    "emp": "Employees number",
+    "people": "people",
+    "jobs": "Open jobs",
+    "contact_person": "Contact person",
+    "about": "About company",
+    "jobs2": "Open jobs",
+    "resp": "All responses"
+  },
+  "BookmarkPage": {
+    "title": "Bookmarked jobs"
+  },
+  "JobsPages": {
+    "bookmarks": "Bookmarks",
+    "all": "All"
+  },
+  "JobCard": {
+    "today": "today",
+    "1ago": "day ago",
+    "2-4ago": "days ago",
+    "5+ago": "days ago",
+    "21ago": "days ago",
+    "mago": "month ago",
+    "2mago": "months ago",
+    "emp": "employees",
+    "inOffice": "In office",
+    "remPos": "Remote possible",
+    "remPerm": "Fully remote",
+    "1y": "1 year +",
+    "2y": "2 years +",
+    "3y": "3 years +",
+    "4y": "4 years +",
+    "fullday": "Full time job",
+    "parttime": "Part time job",
+    "inter": "Internship",
+    "contract": "Contract",
+    "coFund": "Co-founder",
+    "salary": "Salary",
+    "share": "Share",
+    "apply": "Apply",
+    "edit": "Edit",
+    "delete": "Delete",
+    "bookmark": "Bookmark"
+  },
+  "PersonCard": {
+    "resume": "Resume",
+    "1y": "year of exp.",
+    "2y": "years of exp.",
+    "exp": "Work experience",
+    "skills": "Skills",
+    "desiredS": "Desired salary",
+    "decline": "Decline",
+    "contact": "Contact"
+  }
+}

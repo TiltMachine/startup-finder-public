@@ -1,0 +1,142 @@
+@import "../index.css";
+.jobCard{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--secondary);
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 700px;
+    /*margin-top: 10px;*/
+    /*font-weight: normal;*/
+
+}
+.company_name{
+    color: var(--altText);
+    font-size: 13px;
+}
+.vacancy_name{
+    color: var(--textMain);
+    font-size: 2ex;
+}
+.days_ago{
+    color: var(--altText);
+    font-size: 13px;
+    align-self: normal;
+}
+.accent_color{
+    color: var(--accent);
+}
+.location_and_people{
+    margin-top: 4px;
+    color: var(--altText);
+    font-size: 13px;
+}
+.job_info{
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: normal;
+
+}
+.job_info_item{
+    background: var(--altDominant);
+    color: var(--altTextDarker);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 30px;
+}
+.salary_share{
+    margin-top: 14px;
+}
+.button-green{
+    font-weight: bold;
+    border-radius: 30px;
+    background: var(--accent);
+    border: 0;
+    width: 5em;
+}
+.button-blue{
+    font-weight: bold;
+    border-radius: 30px;
+    background: cornflowerblue;
+    border: 0;
+    width: 5em;
+}
+.button-yellow{
+    font-weight: bold;
+    border-radius: 30px;
+    background: var(--myYellow);
+    border: 0;
+    width: 5em;
+}
+.button-red{
+    font-weight: bold;
+    border-radius: 30px;
+    background: #b82006;
+    border: 0;
+    width: 5em;
+    margin-left: 10px;
+}
+.bookmark-icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #5ae773;
+}
+.bookmark-btn{
+    display: none;
+}
+.near_avatar{
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .button-green, .button-yellow, .button-red, .button-blue {
+        margin-top: 10px;
+        width: 40vw;
+        margin-left: 0;
+    }
+    .bookmark{
+        display: none;
+    }
+    .vacancy_name{
+        margin-top: 3px;
+    }
+    .hstack.job_info{
+        flex-wrap: wrap;
+    }
+    .bookmark-btn{
+        display: inline-block;
+    }
+    .near_avatar{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .button-green, .button-yellow, .button-red, .button-blue {
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 0;
+    }
+    .jobCard {
+        padding-right: 10px;
+    }
+    .button-storage{
+        width: 100%;
+    }
+    .near_avatar{
+        margin-left: -5px;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .near_avatar{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .near_avatar{
+        margin-left: 15px;
+    }
+}

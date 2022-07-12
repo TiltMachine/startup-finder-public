@@ -1,0 +1,220 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+:root {
+    --dominant: #f6f6f8;
+    --altDominant: #dee1e5;
+    --altDominant2: #E7E7E7;
+    --secondary: #FFFFFF;
+    --accent: #3FC66E;
+    --accentHover: #2dd768;
+    --textMain: #313131;
+    --altText: #8E8E8E;
+    --altTextDarker: #616161;
+    --redDecline: #c61414;
+    --redHover: #b12525;
+    --myYellow: #e8c616;
+    /*--redHover: #cea508;*/
+}
+body{
+    background-color: var(--dominant);
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+.main_navbar{
+    background-color: var(--secondary);
+
+}
+#register_card{
+    /*margin-top: 10%;*/
+}
+/*Класс всех текстовых центральных элементов навигации*/
+.navbar_items *{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+/* Чтобы кнопки в навигации не слипались*/
+.navbar_margin button{
+    /*margin-left: 20px;*/
+}
+
+/* 768px = md в бутсрапе, крч когда мобилки */
+@media screen and (max-width: 768px) {
+    .navbar_margin button {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+/*Чтобы не отображать стрелочку в дропдауне*/
+.dropdown-toggle::after{
+    content: none;
+}
+/*Чтобы дропдаун меню выравнялось с кнопкой */
+.dropdown-menu.show {
+    /*margin-left: 20px;*/
+}
+
+.nav-bar_dropdown_titles {
+    font-size: small;
+    /*text-decoration-color: red;*/
+}
+
+/*Авто подсчет строк в таблице*/
+/*tbody {*/
+/*    counter-reset: row;*/
+/*    !* Set the row counter to 0 *!*/
+/*}*/
+/*tbody tr::before {*/
+/*    counter-increment: row;*/
+/*    !* Increment the row counter*!*/
+/*    content: counter(row);*/
+/*    !* Display the row *!*/
+/*}*/
+
+.vacancy{
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.rbt-token{
+    /*background-color: red !important;*/
+}
+
+.avatar {
+    /*vertical-align: middle;*/
+    margin-left: -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.avatarSettings {
+    /*vertical-align: middle;*/
+    margin-left: -10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+.btn-green{
+    font-weight: bold;
+    border-radius: 30px;
+    background: var(--accent);
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-red{
+    font-weight: bold;
+    border-radius: 30px;
+    background: var(--redDecline);
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-yellow{
+    font-weight: bold;
+    border-radius: 30px;
+    background: var(--myYellow);
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.b-outline{
+    font-weight: bold;
+    border-radius: 30px;
+    background: none;
+    border-width: 2px;
+    border-color: var(--accent);
+    color: var(--altText);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-green:hover, .b-outline:hover{
+    border-color: var(--accent);
+    background: var(--accentHover);
+}
+.btn:focus,.btn:active{
+    outline: none !important;
+    box-shadow: none;
+}
+.btn-red:hover{
+    border-color: var(--redHover);
+    background: var(--redHover);
+}
+
+.rbt-input-multi, input, select {
+    background-color: var(--dominant) !important;
+    border: 1px solid var(--altText) !important;
+
+}
+.rbt-input-main, .rbt-input-hint{
+    border: none !important;
+}
+.settingsMenu{
+    color: var(--altTextDarker);
+    background-color: var(--secondary);
+    font-weight: 500;
+}
+.settingsItem :hover{
+    background-color:  var(--accentHover) !important;
+}
+
+.list-group-item.active {
+    background-color: var(--accent) !important;
+    border-color:var(--accent) !important;
+}
+.mainLogo {
+    /*vertical-align: middle;*/
+    width: 100px;
+    height: 50px;
+    /*border-radius: 50%;*/
+}
+.side-filter{
+    background-color: var(--secondary);
+    border-radius: 30px;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.CompanyItem{
+    background-color: var(--secondary);
+    border-radius: 30px;
+    height: 40px;
+    align-items: center;
+}
+table{
+    border: 3px solid var(--accent) !important;
+    border-radius: 20px !important;
+    border-collapse:separate !important;
+    margin-bottom: 0 !important;
+}
+td, th {
+/*    border-left:solid black 1px;*/
+/*    border-top:solid black 1px;*/
+}
+
+th {
+    border-top: none;
+}
+
+td:first-child, th:first-child, td:last-child, th:last-child{
+    border-left: none !important;
+    border-right: none !important;
+}
+td:nth-child(3), th:nth-child(3){
+    border-left: none !important;
+}
+.customb{
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+}
+.customb:hover{
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+}
+.custom_dd{
+}
